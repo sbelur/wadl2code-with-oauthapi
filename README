@@ -1,4 +1,5 @@
 Project DESCRIPTION
+[Briefly - API Code generator with WADL as Input]
 
 (NOTE: status -> WIP)
 
@@ -9,7 +10,8 @@ CONSOLE (apigee.com/console) would provide.
 b> Handle Authentication protocols like OAuth behind the scene, this hiding the complexity of oauth 
 from the end user.
 
-Example : 
+
+Example : [For Twitter - would be similar to other providers as well based on WADL inputs]
 
 <code snippet>
 
