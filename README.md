@@ -1,15 +1,22 @@
-Project DESCRIPTION
+<h2>Project DESCRIPTION</h2>
 [Briefly - API Code generator with WADL as Input]
 
 
 
 This project aims to generate APIs for methods provided by a API provider like twitter 
 allowing the user of the API to :
+<li>
+<ul>
 a> make request to the target through Apigee Proxy thus gaining the same benefits which the APIGEE
 CONSOLE (apigee.com/console) would provide.
+</ul>
+<ul>
 b> Handle Authentication protocols like OAuth behind the scene, this hiding the complexity of oauth 
 from the end user.
+</ul>
+</li>
 
+<br/>
 <h2>Example</h2>
 Example : [For Twitter - would be similar to other providers as well based on WADL inputs]
 
