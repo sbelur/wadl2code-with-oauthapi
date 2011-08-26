@@ -40,7 +40,7 @@ import java.security.cert.X509Certificate
 import javax.net.ssl._
 import java.util.Properties
 import java.io._
-import org.scribe.model.Token
+
 
 import TestConstants._
 import scala.collection.mutable.ListBuffer
