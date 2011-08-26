@@ -1,6 +1,6 @@
 <b>Project DESCRIPTION</b><br/>
 [Briefly - API Code generator with WADL as Input]
-
+<h2>Details</h2>
 
 
 This project aims to generate APIs for methods defined in API definition file called WADL ,
@@ -28,8 +28,8 @@ Example : [For Twitter - would be similar to other providers as well based on WA
 <pre>
 <code snippet>
    Statuseshome_timeline homeTimeline = new Statuseshome_timeline();
-   homeTimeline.setSmartKey("sbelur1");
-   homeTimeline.setApplicationName("app1");
+   homeTimeline.setSmartKey("application  user's smartkey");
+   homeTimeline.setApplicationName("application name registered with apigee");
    homeTimeline.setFormat(MethodConstants.XML_FORMAT);
    String resp = homeTimeline.invoke();
 </code snippet>
