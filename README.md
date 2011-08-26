@@ -1,4 +1,4 @@
-<h2>Project DESCRIPTION</h2>
+<b>Project DESCRIPTION</b>
 [Briefly - API Code generator with WADL as Input]
 
 
@@ -19,7 +19,7 @@ from the end user.
 <br/>
 <h2>Example</h2>
 Example : [For Twitter - would be similar to other providers as well based on WADL inputs]
-
+<pre>
 <code snippet>
 
    Twitterstatusupdate twitterstatusupdate = new Twitterstatusupdate();
@@ -29,4 +29,5 @@ Example : [For Twitter - would be similar to other providers as well based on WA
    System.out.println(twitterstatusupdate.invoke());	
 
 </code snippet>
+</pre>
 
