@@ -54,6 +54,6 @@ Execute the following steps:
 
 <h2>Author</h2>
 Swaroop Belur
-Please email me at swaroop<DOT>belur<AT>gmail<DOT>com for any help.
+Please email me at swaroop[DOT]belur[AT]gmail[DOT]com for any help.
 
 
