@@ -39,10 +39,12 @@ Example : [For Twitter - would be similar to other providers as well based on WA
 Please make sure you have maven installed in your machine.
 
 Execute the following steps:
-1. At the root level, mvn clean install
-2. At the root level, mvn clean install -f apisdk-pom.xml
-3. Jar should have been generated under apisdkgeneration/target/
-4. Third party dependencies are under apisdkgeneration/target/lib
+<li>
+<ul>1. At the root level, mvn clean install</ul>
+<ul>2. At the root level, mvn clean install -f apisdk-pom.xml</ul>
+<ul>3. Jar should have been generated under apisdkgeneration/target/</ul>
+<ul>4. Third party dependencies are under apisdkgeneration/target/lib</ul>
+</li>
 
 <h2>Running the Example After a build </h2>
 1. Make sure you have all the jars (apisdkgeneration/target/ + apisdkgeneration/target/lib jars) in classpath
