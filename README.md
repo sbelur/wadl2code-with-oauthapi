@@ -34,3 +34,26 @@ Example : [For Twitter - would be similar to other providers as well based on WA
    String resp = homeTimeline.invoke();
 </code snippet>
 </pre>
+
+<h2>Building</h2>
+Please make sure you have maven installed in your machine.
+
+Execute the following steps:
+1. At the root level, mvn clean install
+2. At the root level, mvn clean install -f apisdk-pom.xml
+3. Jar should have been generated under apisdkgeneration/target/
+4. Third party dependencies are under apisdkgeneration/target/lib
+
+<h2>Running the Example After a build </h2>
+1. Make sure you have all the jars (apisdkgeneration/target/ + apisdkgeneration/target/lib jars) in classpath
+2. Compile and run your java/scala file with the above classpath.
+
+<h2>TODO</h2>
+1. Creating tests
+2. Testing Testing Testing ....
+
+<h2>Author</h2>
+Swaroop Belur
+Please email me at swaroop<DOT>belur<AT>gmail<DOT>com for any help.
+
+
